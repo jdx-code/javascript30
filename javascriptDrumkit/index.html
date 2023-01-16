@@ -30,7 +30,7 @@
         </div>
         <div class="firstLayer">
             <div data-key="87" class="key" id="hiHat">
-                <kbd><img src="images/hiHat.jpg" width="120" height="120"/></kbd>
+                <kbd><img src="images/hiHat.jpg" class="cymbals"/></kbd>
             </div>
             <div data-key="86" class="key" id="snareDrum">
                 <kbd><img src="images/snareDrum.png" class="tom"/></kbd>
@@ -46,8 +46,11 @@
             </div>
         </div>
         <div data-key="32" class="key" id="kickDrum">
-            <kbd><img src="images/kickDrum.png" width="140" height="140"/></kbd>
+            <kbd><img src="images/kickDrum.png" class="kick"/></kbd>
         </div>
+    </div>
+    <div style="width: 40%; text-align: center; position:relative; bottom: 50px;">
+        <img src="images/tool.png" width="120" height="120"/>
     </div>
 
     <audio data-key="85" src="audio/rideCymbal.wav"></audio>
@@ -63,11 +66,25 @@
 
     <script type="text/javascript">
         window.addEventListener('keydown', (e) => {
+            // Select the audio associated with the key
             const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+
+            // Select the particular class(or div) associated with the key
+            const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
             if(!audio) return // stops the function from running altogether
             audio.currentTime = 0 // rewind to the start
             audio.play();
+            key.classList.add('playing');
         });
+
+        function removeTransition(e) {
+            if(e.propertyName !== 'transform') return; //skip it if it is not a tranform
+
+            this.classList.remove('playing');
+        }
+
+        const keys = document.querySelectorAll('.key');
+        keys.forEach(key => key.addEventListener('transitionend', removeTransition));
     </script>
 </body>
 </html>

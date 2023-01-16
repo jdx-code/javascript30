@@ -12,14 +12,22 @@ body{
 .key{
     transition: all 0.07s;
 }
+.playing{
+    transform: scale(1.1);    
+}
 
 .cymbals{
     width: 120px;
     height: 120px;
+    transition: all 0.07s;
 }
 .tom{
     width: 100px;
     height: 100px;
+} 
+.kick{
+    width: 150px;
+    height: 150px;
 }
 
 .firstLayer, .secondLayer {
