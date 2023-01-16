@@ -8,3 +8,37 @@ body{
     background-color: #000003;
     color: #fff;
 }
+
+.firstLayer, .secondLayer {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+    align-items: baseline;  
+}
+#smallTom{
+    position: relative;
+    left:50px;
+}
+#mediumTom{
+    position: relative;
+    right:50px;
+}
+#kickDrum{
+    position: absolute;
+    top: 60%;
+    left: 200px;
+    z-index: -1;
+}
+#snareDrum, #floorTom{
+    position: relative;
+    top:-15px;
+    left:5px;
+}
+#crashCymbal{
+    position: relative;
+    left: 50px;    
+}
+#rideCymbal{
+    position: relative;
+    right: 50px;
+}
