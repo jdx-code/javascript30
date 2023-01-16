@@ -6,7 +6,11 @@
 
 body{
     background-color: #000003;
-    color: #fff;
+    color: #fff;    
+}
+.container {
+    width: 100%;
+    max-width: 70%;
 }
 
 .key{
@@ -31,7 +35,7 @@ body{
 }
 
 .firstLayer, .secondLayer {
-    width: 40%;
+    max-width: 80%;    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
     align-items: baseline;  
@@ -63,3 +67,77 @@ body{
     position: relative;
     right: 50px;
 }
+.tool{
+    width: 40%;
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+}
+.tool img{
+    width:120px;
+    height:120px;
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+        max-width: 95%;
+        margin-left:5px;
+    }
+    .cymbals{
+        width: 80px;
+        height: 80px;
+        transition: all 0.07s;
+    }
+    .tom{
+        width: 70px;
+        height: 70px;
+    } 
+    .kick{
+        width: 120px;
+        height: 120px;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 100%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        align-items: baseline;  
+    }
+    #smallTom{
+        position: relative;
+        left:10px;
+    }
+    #mediumTom{
+        position: relative;
+        right:0px;
+    }
+    #kickDrum{
+        position: absolute;
+        top: 15%;
+        left: 100px;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-15px;
+        left:5px;
+    }
+    #crashCymbal{
+        position: relative;
+        left: 15px;    
+    }
+    #rideCymbal{
+        position: relative;
+        right: 15px;
+    }
+    .tool{
+        width: 80%;                      
+        position:relative;
+        left: 92px;
+        top: 5px;                
+    }
+    .tool img{
+        width: 200px;
+        height: 200px;     
+    }
+  }
