@@ -9,6 +9,19 @@ body{
     color: #fff;
 }
 
+.key{
+    transition: all 0.07s;
+}
+
+.cymbals{
+    width: 120px;
+    height: 120px;
+}
+.tom{
+    width: 100px;
+    height: 100px;
+}
+
 .firstLayer, .secondLayer {
     width: 40%;
     display: grid;
