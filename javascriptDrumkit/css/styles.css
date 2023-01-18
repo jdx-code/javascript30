@@ -131,13 +131,354 @@ body{
         right: 15px;
     }
     .tool{
-        width: 80%;                      
+        width: 50%;                      
         position:relative;
-        left: 92px;
-        top: 5px;                
+        left: 77px;
+        top: -50px;                
     }
     .tool img{
-        width: 200px;
-        height: 200px;     
+        width: 125px;
+        height: 125px;     
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 477px) {
+    .container {
+        width: 95%;
+        max-width: 95%;
+        margin-left:5px;
+    }
+    .cymbals{
+        width: 120px;
+        height: 120px;
+        transition: all 0.07s;
+    }
+    .tom{
+        width: 95px;
+        height: 95px;
+    } 
+    .kick{        
+        width: 160px;
+        height: 160px;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 100%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        align-items: center;
+    }
+    #smallTom{
+        position: relative;
+        left:5px;
+    }
+    #mediumTom{
+        position: relative;
+        right:5px;
+    }
+    #kickDrum{       
+        position: absolute;
+        top: 10%;
+        left: 148px;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-30px;
+        left:5px;
+    }
+    #crashCymbal{
+        position: relative;
+        left: 10px;            
+    }
+    #rideCymbal{
+        position: relative;
+        right: 25px;
+    }
+    .tool{
+        width: 50%;                      
+        position:relative;
+        left: 115px;
+        top: -60px;                
+    }
+    .tool img{
+        width: 125px;
+        height: 125px;     
+    }
+  }
+
+  @media only screen and (min-width: 478px) and (max-width: 505px) {
+    .container {
+        width: 90%;
+        max-width: 95%;
+        margin-left:5px;
+    }
+    .cymbals{
+        max-width: 105px;
+        height: 105px;
+        transition: all 0.07s;
+    }
+    .tom{
+        max-width: 95px;
+        height: 95px;
+    } 
+    .kick{
+        max-width: 160px;
+        height: 160px;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 100%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        align-items: center;
+    }
+    #smallTom{
+        position: relative;
+        left:30px;
+    }
+    #mediumTom{
+        position: relative;
+        right:15px;
+    }
+    #kickDrum{
+        position: absolute;
+        top: 10%;
+        left: 160px;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-30px;
+        left:5px;
+    }
+    #crashCymbal{
+        position: relative;
+        left: 35px;    
+    }
+    #rideCymbal{
+        position: relative;
+        right: 25px;
+    }
+    .tool{
+        width: 50%;                      
+        position:relative;
+        left: 115px;
+        top: -50px;                
+    }
+    .tool img{
+        width: 125px;
+        height: 125px;     
+    }
+  }
+
+  @media only screen and (min-width: 506px) and (max-width: 630px) {
+    .container {
+        width: 100%;        
+        max-width: 95%;
+        margin-left:5px;
+    }
+    .cymbals{
+        max-width: 100%;
+        height: 115px;
+        transition: all 0.07s;
+    }
+    .tom{
+        max-width: 100%;
+        height: 100px;
+    } 
+    .kick{
+        max-width: 100%;
+        height: 165px;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 99%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        align-items: center;        
+    }
+    #smallTom{
+        position: relative;
+        left:30%;
+    }
+    #mediumTom{
+        position: relative;
+        right:45%;
+    }
+    #kickDrum{
+        position: absolute;
+        top: 10%;
+        left: 32%;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-30%;        
+    }
+    #crashCymbal{
+        position: relative;
+        left: 35%;    
+    }
+    #rideCymbal{
+        position: relative;
+        right: 50%;
+    }
+    .tool{
+        width: 90%;                      
+        position:relative;
+        left: 0px;
+        top: -50px;                
+    }
+    .tool img{
+        width: 125px;
+        height: 125px;     
+    }
+  }
+
+  @media only screen and (min-width: 631px) and (max-width: 1099px) {
+    .container {
+        width: 100%;        
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .cymbals{
+        min-width: 95%;
+        height: auto;
+        transition: all 0.07s;
+    }
+    .tom{
+        min-width: 75%;
+        height: auto;
+    } 
+    .kick{
+        min-width: 125%;
+        height: auto;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 99%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
+    }
+    #smallTom{
+        position: relative;
+        left:40%;
+    }
+    #mediumTom{
+        position: relative;
+        right:55%;
+    }
+    #kickDrum{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-38%;        
+    }
+    #snareDrum{
+        left: 8%;
+    }
+    #floorTom{
+        left: -20%;
+    }
+    #hiHat{
+        position: relative;
+        left: 20%;    
+    }
+    #crashCymbal{
+        position: relative;
+        left: 45%;    
+    }
+    #rideCymbal{
+        position: relative;
+        right: 80%;
+    }
+    #crashRideCymbal{
+        position: relative;
+        right: 55%;
+    }
+    .tool{
+        width: 90%;        
+        position:relative;        
+        top: -70%;                        
+    }
+    .tool img{
+        width: 125px;
+        height: 125px;     
+    }
+  }
+
+  @media only screen and (min-width: 1100px) {
+    .container {
+        width: 100%;        
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .cymbals{
+        min-width: 128%;
+        height: auto;
+        transition: all 0.07s;
+    }
+    .tom{
+        min-width: 90%;
+        height: auto;
+    } 
+    .kick{
+        min-width: 150%;
+        height: auto;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 85%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
+    }
+    #smallTom{
+        position: relative;
+        left:40%;
+    }
+    #mediumTom{
+        position: relative;
+        right:20%;
+    }
+    #kickDrum{
+        position: absolute;
+        top: 12%;
+        left: 36%;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top:-40%;        
+    }
+    #snareDrum{
+        left: 15%;
+    }
+    #floorTom{
+        left: 15%;
+    }
+    #hiHat{
+        position: relative;
+        left: 5%;    
+    }
+    #crashCymbal{
+        position: relative;
+        left: 16%;    
+    }
+    #rideCymbal{
+        position: relative;
+        right: 40%;
+    }
+    #crashRideCymbal{
+        position: relative;
+        right: 5%;
+    }
+    .tool{
+        width: 90%;                            
+        position:relative;                
+        top: -70px;
+    }
+    .tool img{
+        width: 15%;        
+        height: auto;             
     }
   }
