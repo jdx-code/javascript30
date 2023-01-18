@@ -176,7 +176,7 @@ body{
     }
   }
 
-  @media only screen and (min-width: 321px) and (max-width: 477px) {
+  @media only screen and (min-width: 321px) and (max-width: 769px) {
     .center {        
         flex-wrap: wrap;    
         width: 95%;                
@@ -204,11 +204,11 @@ body{
         transition: all 0.07s;
     }
     .tom{
-        width: 100%;
+        width: 85%;
         height: auto;
     } 
     .kick{        
-        width: 55%;
+        width: 48%;
         height: auto;
     }
     .firstLayer, .secondLayer {
@@ -219,7 +219,7 @@ body{
     }
     #smallTom{
         position: relative;
-        left:35px;
+        left:45%;
     }
     #mediumTom{
         position: relative;
@@ -228,7 +228,7 @@ body{
     #kickDrum{       
         position: absolute;
         top: 29%;
-        left: 155px;
+        left: 32%;
         z-index: -1;
     }
     #snareDrum, #floorTom{
@@ -236,22 +236,22 @@ body{
         top: -32%;
     }
     #snareDrum{
-        left: 15%;
+        left: 20%;
     }
     #floorTom{
-        left: -5%;
+        left: 12%;
     }
     #crashCymbal{
         position: relative;
-        left: 10px;            
+        left: 22%;            
     }
     #rideCymbal{
         position: relative;
-        right: 40%;
+        right: 45%;
     }
     #crashRideCymbal{
         position: relative;
-        right: 25%;
+        right: 15%;
     }
     .tool{
         width: 50%;                      
@@ -263,39 +263,42 @@ body{
         width: 125px;
         height: 125px;     
     }
-  }
+  }  
 
-  @media only screen and (min-width: 478px) and (max-width: 505px) {
-    .center{
-        display: flex;    
-        width: 70%;
-        margin: 0 auto;
-        justify-content: space-around;
-        font-family: 'Arsenal', sans-serif;
-        padding:5px;    
+  @media only screen and (min-width: 770px) and (max-width: 1099px) {
+    .center {        
+        flex-wrap: wrap;    
+        width: 95%;                
+        font-size: 0.85rem;
+        padding:5px 16px;            
+        border: 1px solid pink;
+    }    
+    #title{        
+        font-size: 1.8rem;
+        padding: 16px 0px;
     }
-    #title{
-        font-family: 'Rubik Vinyl', cursive;
-        font-size: 1.7rem;
-        padding: 30px;
+    .btn {
+        width: 130px;
+        border: 1px solid yellow;
     }
     .container {
-        width: 90%;
-        max-width: 95%;
+        width: 95%;
+        max-width: 92%;
         margin-left:5px;
+        margin-top: 60px;
     }
     .cymbals{
-        max-width: 105px;
-        height: 105px;
+        width: 90%;
+        height: auto;
         transition: all 0.07s;
     }
     .tom{
-        max-width: 95px;
-        height: 95px;
+        width: 70%;
+        height: auto;
     } 
-    .kick{
-        max-width: 160px;
-        height: 160px;
+    .kick{        
+        width: 44%;
+        height: auto;
     }
     .firstLayer, .secondLayer {
         max-width: 100%;        
@@ -305,174 +308,31 @@ body{
     }
     #smallTom{
         position: relative;
-        left:30px;
+        left:50%;
     }
     #mediumTom{
         position: relative;
-        right:15px;
+        right:40%;
     }
-    #kickDrum{
+    #kickDrum{       
         position: absolute;
-        top: 35%;
-        left: 160px;
+        top: 29%;
+        left: 33%;
         z-index: -1;
     }
     #snareDrum, #floorTom{
         position: relative;
-        top:-30px;
-        left:5px;
-    }
-    #crashCymbal{
-        position: relative;
-        left: 35px;    
-    }
-    #rideCymbal{
-        position: relative;
-        right: 25px;
-    }
-    .tool{
-        width: 50%;                      
-        position:relative;
-        left: 115px;
-        top: -50px;                
-    }
-    .tool img{
-        width: 125px;
-        height: 125px;     
-    }
-  }
-
-  @media only screen and (min-width: 506px) and (max-width: 630px) {
-    .center{
-        display: flex;    
-        width: 70%;
-        margin: 0 auto;
-        justify-content: space-around;
-        font-family: 'Arsenal', sans-serif;
-        padding:5px;    
-    }
-    #title{
-        font-family: 'Rubik Vinyl', cursive;
-        font-size: 1.7rem;
-        padding: 30px;
-    }
-    .container {
-        width: 100%;        
-        max-width: 95%;
-        margin-left:5px;
-    }
-    .cymbals{
-        max-width: 100%;
-        height: 115px;
-        transition: all 0.07s;
-    }
-    .tom{
-        max-width: 100%;
-        height: 100px;
-    } 
-    .kick{
-        max-width: 100%;
-        height: 165px;
-    }
-    .firstLayer, .secondLayer {
-        max-width: 99%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
-        align-items: center;        
-    }
-    #smallTom{
-        position: relative;
-        left:30%;
-    }
-    #mediumTom{
-        position: relative;
-        right:45%;
-    }
-    #kickDrum{
-        position: absolute;
-        top: 50%;
-        left: 32%;
-        z-index: -1;
-    }
-    #snareDrum, #floorTom{
-        position: relative;
-        top:-30%;        
-    }
-    #crashCymbal{
-        position: relative;
-        left: 35%;    
-    }
-    #rideCymbal{
-        position: relative;
-        right: 50%;
-    }
-    .tool{
-        width: 90%;                      
-        position:relative;
-        left: 0px;
-        top: -50px;                
-    }
-    .tool img{
-        width: 125px;
-        height: 125px;     
-    }
-  }
-
-  @media only screen and (min-width: 631px) and (max-width: 1099px) {
-    .container {
-        width: 100%;        
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    .cymbals{
-        min-width: 95%;
-        height: auto;
-        transition: all 0.07s;
-    }
-    .tom{
-        min-width: 75%;
-        height: auto;
-    } 
-    .kick{
-        min-width: 125%;
-        height: auto;
-    }
-    .firstLayer, .secondLayer {
-        max-width: 99%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
-    }
-    #smallTom{
-        position: relative;
-        left:40%;
-    }
-    #mediumTom{
-        position: relative;
-        right:55%;
-    }
-    #kickDrum{
-        position: absolute;
-        top: 38%;
-        left: 35%;
-        z-index: -1;
-    }
-    #snareDrum, #floorTom{
-        position: relative;
-        top:-38%;        
+        top: -28%;
     }
     #snareDrum{
-        left: 8%;
+        left: 28%;
     }
     #floorTom{
-        left: -30%;
-    }
-    #hiHat{
-        position: relative;
-        left: 20%;    
+        left: -25%;
     }
     #crashCymbal{
         position: relative;
-        left: 45%;    
+        left: 55%;            
     }
     #rideCymbal{
         position: relative;
@@ -482,16 +342,22 @@ body{
         position: relative;
         right: 55%;
     }
+    #hiHat{
+        position: relative;
+        left: 35%;    
+    }
     .tool{
-        width: 90%;        
-        position:relative;        
-        top: -70%;                        
+        width: 50%;                      
+        position:relative;
+        left: 115px;
+        top: -60px;                
     }
     .tool img{
         width: 125px;
         height: 125px;     
     }
-  }
+  }  
+ 
 
   @media only screen and (min-width: 1100px) {
     .container {
