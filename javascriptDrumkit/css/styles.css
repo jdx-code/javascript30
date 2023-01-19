@@ -29,6 +29,15 @@ body{
     max-width: 70%;
     margin: 5% auto;
 }
+.btn{
+    width: 135px;    
+    border: 1px solid silver;
+    padding: 5px;  
+    text-align: center;     
+}
+.btn span{
+    display: block;    
+}
 
 .key{
     transition: all 0.07s;
@@ -107,10 +116,7 @@ body{
         font-size: 1.3rem;
         padding: 16px 0px;
     }
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
+    
     .container {
         width: 100%;
         max-width: 95%;
@@ -196,10 +202,7 @@ body{
         font-size: 1.8rem;
         padding: 16px 0px;
     }
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
+    
     .container {
         width: 95%;
         max-width: 92%;
@@ -285,10 +288,7 @@ body{
         font-size: 1.8rem;
         padding: 16px 0px;
     }
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
+    
     .container {
         width: 99%;
         max-width: 92%;
@@ -381,10 +381,6 @@ body{
         font-size: 1.8rem;
         padding: 16px 0px;
     }
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
     .container {
         width: 99%;
         max-width: 92%;
@@ -466,10 +462,6 @@ body{
   }
 
   @media only screen and (min-width: 1000px) and (max-width: 1140px) {
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
     .container {
         width: 100%;        
         max-width: 70%;        
@@ -543,11 +535,7 @@ body{
     }
   }
 
-  @media only screen and (min-width: 1141px) and (max-width: 1250px) {
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
+  @media only screen and (min-width: 1141px) and (max-width: 1250px) {    
     .container {
         width: 100%;        
         max-width: 70%;        
@@ -621,11 +609,7 @@ body{
     }
   }
 
-  @media only screen and (min-width: 1251px) {    
-    .btn {
-        width: 130px;
-        border: 1px solid yellow;
-    }
+  @media only screen and (min-width: 1251px) {        
     .container {
         width: 100%;        
         max-width: 70%;        
