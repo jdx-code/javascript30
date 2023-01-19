@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css"/>
-    <title>JS DrumKit</title>
+    <title>JS DrumKit</title>    
 </head>
 <body>  
     <h1 class="center" id="title">The Javascript Drum Kit</h1>             
@@ -96,8 +96,18 @@
     
     <audio data-key="32" src="audio/kickDrum.wav"></audio>
 
-
+    
     <script type="text/javascript" src="js/main.js">
-    </script>
+    </script>  
+    <footer>Designed by JD,
+        <span id="yearID">
+            <script>
+                let currentTime = new Date();
+                let currentYear = currentTime.getFullYear();
+                document.getElementById("yearID").innerHTML = currentYear;                
+            </script>
+        </span>
+    </footer>
+         
 </body>
 </html>

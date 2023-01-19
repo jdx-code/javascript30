@@ -27,8 +27,7 @@ body{
 .container {
     width: 100%;
     max-width: 70%;
-    margin: 5% auto;
-    border: 1px solid green;    
+    margin: 5% auto;       
 }
 .btn{
     width: 135px;    
@@ -558,7 +557,7 @@ body{
         height: auto;
     } 
     .kick{
-        min-width: 150%;
+        min-width: 137%;
         height: auto;
     }
     .firstLayer, .secondLayer {
@@ -577,7 +576,7 @@ body{
     #kickDrum{
         position: absolute;
         top: 38%;
-        left: 34%;
+        left: 39%;
         z-index: -1;
     }
     #snareDrum, #floorTom{
@@ -623,9 +622,7 @@ body{
     .btn span{
         display: block;    
     }
-    .container {
-        width: 100%;        
-        max-width: 70%;    
+    .container {          
         padding-left: 70px;    
     }
     .cymbals{
@@ -657,7 +654,7 @@ body{
     #kickDrum{
         position: absolute;
         top: 38%;
-        left: 36%;
+        left: 39%;
         z-index: -1;
     }
     #snareDrum, #floorTom{
@@ -690,7 +687,7 @@ body{
         width: 50%;                      
         position:relative;
         left: 17%;
-        margin-top: -7%;        
+        margin-top: -3%;        
         
     }
     .tool img{
@@ -699,13 +696,11 @@ body{
     }
   }
 
-  @media only screen and (min-width: 1251px) {  
+  @media only screen and (min-width: 1251px) {      
     .btn span{
         display: block;    
     }      
-    .container {
-        width: 100%;        
-        max-width: 70%;     
+    .container {        
         padding-left: 70px;   
     }
     .cymbals{
@@ -737,7 +732,7 @@ body{
     #kickDrum{
         position: absolute;
         top: 39%;
-        left: 37%;
+        left: 40%;
         z-index: -1;
     }
     #snareDrum, #floorTom{
@@ -769,8 +764,8 @@ body{
     .tool{        
         width: 50%;                      
         position:relative;
-        left: 17%;
-        margin-top: -7%;        
+        left: 18%;
+        margin-top: -8%;        
         
     }
     .tool img{
