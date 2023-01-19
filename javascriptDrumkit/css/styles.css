@@ -32,13 +32,9 @@ body{
 .btn{
     width: 135px;    
     border: 1px solid silver;
-    padding: 5px;  
+    padding: 1px;  
     text-align: center;     
 }
-.btn span{
-    display: block;    
-}
-
 .key{
     transition: all 0.07s;
 }
@@ -109,8 +105,7 @@ body{
         flex-wrap: wrap;    
         width: 95%;                
         font-size: 0.80rem;
-        padding:5px 16px;            
-        border: 1px solid pink;
+        padding:5px 16px;                    
     }    
     #title{        
         font-size: 1.3rem;
@@ -133,8 +128,8 @@ body{
         height: 70px;
     } 
     .kick{
-        width: 120px;
-        height: 120px;
+        width: 125px;
+        height: 125px;
     }
     .firstLayer, .secondLayer {
         max-width: 100%;        
@@ -152,7 +147,7 @@ body{
     }
     #kickDrum{
         position: absolute;
-        top: 49%;
+        top: 48%;
         left: 100px;
         z-index: -1;
     }   
@@ -181,22 +176,22 @@ body{
     .tool{
         width: 50%;                      
         position:relative;
-        left: 77px;
-        top: -50px;                
+        left: 25%;
+        margin-top: 4%;
+        
     }
     .tool img{
-        width: 125px;
-        height: 125px;     
+        width: 90px;
+        height: 90px;     
     }
   }
 
-  @media only screen and (min-width: 321px) and (max-width: 799px) {
+  @media only screen and (min-width: 321px) and (max-width: 462px) {
     .center {        
         flex-wrap: wrap;    
         width: 95%;                
         font-size: 0.85rem;
-        padding:5px 16px;            
-        border: 1px solid pink;
+        padding:5px 16px;                    
     }    
     #title{        
         font-size: 1.8rem;
@@ -238,7 +233,7 @@ body{
     }
     #kickDrum{       
         position: absolute;
-        top: 31%;
+        top: 39%;
         left: 32%;
         z-index: -1;
     }
@@ -264,15 +259,101 @@ body{
         position: relative;
         right: 15%;
     }
-    .tool{
+    .tool{        
         width: 50%;                      
         position:relative;
-        left: 115px;
-        top: -60px;                
+        left: 25%;        
+        
     }
     .tool img{
-        width: 125px;
-        height: 125px;     
+        width: 45%;
+        height: auto;     
+    }
+  }
+
+  @media only screen and (min-width: 463px) and (max-width: 799px) {
+    .center {        
+        flex-wrap: wrap;    
+        width: 95%;                
+        font-size: 0.85rem;
+        padding:5px 16px;                    
+    }    
+    #title{        
+        font-size: 1.8rem;
+        padding: 16px 0px;
+    }
+    
+    .container {
+        width: 95%;
+        max-width: 92%;
+        margin-left:5px;
+        margin-top: 60px;
+    }
+    .cymbals{
+        width: 130%;
+        height: auto;
+        transition: all 0.07s;
+    }
+    .tom{
+        width: 85%;
+        height: auto;
+    } 
+    .kick{        
+        width: 48%;
+        height: auto;
+    }
+    .firstLayer, .secondLayer {
+        max-width: 100%;        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        align-items: center;
+    }
+    #smallTom{
+        position: relative;
+        left:45%;
+    }
+    #mediumTom{
+        position: relative;
+        right:25px;
+    }
+    #kickDrum{       
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        z-index: -1;
+    }
+    #snareDrum, #floorTom{
+        position: relative;
+        top: -32%;
+    }
+    #snareDrum{
+        left: 20%;
+    }
+    #floorTom{
+        left: 12%;
+    }
+    #crashCymbal{
+        position: relative;
+        left: 22%;            
+    }
+    #rideCymbal{
+        position: relative;
+        right: 45%;
+    }
+    #crashRideCymbal{
+        position: relative;
+        right: 15%;
+    }
+    .tool{        
+        width: 50%;                      
+        position:relative;
+        left: 25%; 
+        margin-top: -2%;       
+        
+    }
+    .tool img{
+        width: 45%;
+        height: auto;     
     }
   }
  
@@ -281,8 +362,7 @@ body{
         flex-wrap: wrap;    
         width: 95%;                
         font-size: 0.85rem;
-        padding:5px 16px;            
-        border: 1px solid pink;
+        padding:5px 16px;                    
     }    
     #title{        
         font-size: 1.8rem;
@@ -293,8 +373,7 @@ body{
         width: 99%;
         max-width: 92%;
         margin: 0 auto;
-        margin-top: 60px;
-        border: 1px solid blue;
+        margin-top: 60px;        
     }
     .cymbals{
         width: 90%;
@@ -357,15 +436,16 @@ body{
         position: relative;
         right: 50%;
     }
-    .tool{
+    .tool{        
         width: 50%;                      
         position:relative;
-        left: 115px;
-        top: -60px;                
+        left: 23%; 
+        margin-top: -2%;       
+        
     }
     .tool img{
-        width: 125px;
-        height: 125px;     
+        width: 30%;
+        height: auto;     
     }
   }
 
@@ -385,8 +465,7 @@ body{
         width: 99%;
         max-width: 92%;
         margin: 0 auto;
-        margin-top: 60px;
-        border: 1px solid red;
+        margin-top: 60px;        
     }
     .cymbals{
         width: 90%;
@@ -449,15 +528,16 @@ body{
         position: relative;
         right: 50%;
     }
-    .tool{
+    .tool{        
         width: 50%;                      
         position:relative;
-        left: 115px;
-        top: -60px;                
+        left: 21%; 
+        margin-top: -5%;       
+        
     }
     .tool img{
-        width: 125px;
-        height: 125px;     
+        width: 25%;
+        height: auto;     
     }
   }
 
@@ -524,18 +604,23 @@ body{
         position: relative;
         right: 5%;
     }
-    .tool{
-        width: 90%;                            
-        position:relative;                
-        top: -70px;
+    .tool{        
+        width: 50%;                      
+        position:relative;
+        left: 17%;
+        margin-top: -1%;        
+        
     }
     .tool img{
-        width: 15%;        
-        height: auto;             
+        width: 27%;
+        height: auto;     
     }
   }
 
   @media only screen and (min-width: 1141px) and (max-width: 1250px) {    
+    .btn span{
+        display: block;    
+    }
     .container {
         width: 100%;        
         max-width: 70%;        
@@ -598,18 +683,23 @@ body{
         position: relative;
         right: 5%;
     }
-    .tool{
-        width: 90%;                            
-        position:relative;                
-        top: -70px;
+    .tool{        
+        width: 50%;                      
+        position:relative;
+        left: 17%;
+        margin-top: -7%;        
+        
     }
     .tool img{
-        width: 15%;        
-        height: auto;             
+        width: 27%;
+        height: auto;     
     }
   }
 
-  @media only screen and (min-width: 1251px) {        
+  @media only screen and (min-width: 1251px) {  
+    .btn span{
+        display: block;    
+    }      
     .container {
         width: 100%;        
         max-width: 70%;        
@@ -672,13 +762,15 @@ body{
         position: relative;
         right: 5%;
     }
-    .tool{
-        width: 90%;                            
-        position:relative;                
-        top: -70px;
+    .tool{        
+        width: 50%;                      
+        position:relative;
+        left: 17%;
+        margin-top: -7%;        
+        
     }
     .tool img{
-        width: 15%;        
-        height: auto;             
+        width: 27%;
+        height: auto;     
     }
   }
