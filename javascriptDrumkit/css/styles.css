@@ -7,6 +7,8 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: #000003;
     color: #fff;    
 }
@@ -34,6 +36,13 @@ body{
     border: 1px solid silver;
     padding: 1px;  
     text-align: center;     
+}
+footer{
+    width: 100vw;
+    height: 80px;  
+    position: fixed;
+    bottom: 0;
+    border: 1px solid yellow;
 }
 .key{
     transition: all 0.07s;
