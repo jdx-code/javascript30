@@ -42,6 +42,10 @@ footer{
     height: 80px;  
     position: fixed;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid yellow;
 }
 .key{
