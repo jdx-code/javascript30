@@ -101,6 +101,9 @@ footer{
     position: relative;
     right: 50px;
 }
+#kickDrum{
+    position: absolute;    
+}  
 .tool{
     width: 40%;
     text-align: center;
@@ -149,38 +152,30 @@ footer{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
         align-items: baseline;  
     }
-    #smallTom{
-        position: relative;
+    #smallTom{        
         left:8%;
     }
-    #mediumTom{
-        position: relative;
+    #mediumTom{        
         left: 5%;        
     }
-    #kickDrum{
-        position: absolute;
+    #kickDrum{        
         top: 48%;
         left: 100px;        
     }   
-    #snareDrum{
-        position: relative;
+    #snareDrum{        
         top: -33%;
         left:-15%;
     }
-    #floorTom{
-        position: relative;
+    #floorTom{        
         left:15%;
     }
-    #crashCymbal{
-        position: relative;
+    #crashCymbal{        
         left: 12%;    
     }
-    #rideCymbal{
-        position: relative;
+    #rideCymbal{        
         left: -4%;
     }
-    #crashRideCymbal{
-        position: relative;
+    #crashRideCymbal{        
         top: -6%;
         left: 7%;
     }
@@ -768,7 +763,7 @@ footer{
         width: 50%;                      
         position:relative;
         left: 18%;
-        margin-top: -8%;        
+        margin-top: -8%;       
         
     }
     .tool img{
