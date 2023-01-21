@@ -147,10 +147,7 @@ footer{
         height: 125px;
     }
     .firstLayer, .secondLayer {
-        max-width: 100%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
-        align-items: baseline;  
+        max-width: 100%;                
     }
     #smallTom{        
         left:8%;
@@ -222,10 +219,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 100%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
-        align-items: center;
+        max-width: 100%;                
     }
     #smallTom{        
         left:45%;
@@ -297,9 +291,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 100%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        max-width: 100%;                
         align-items: center;
     }
     #smallTom{        
@@ -374,9 +366,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 100%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        max-width: 100%;                
         align-items: center;
     }
     #crashCymbal{        
@@ -456,9 +446,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 100%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
+        max-width: 100%;                
         align-items: center;
     }
     #crashCymbal{        
@@ -526,9 +514,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 85%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
+        max-width: 85%;                
     }
     #smallTom{        
         left:40%;
@@ -594,9 +580,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 85%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
+        max-width: 85%;                
     }
     #smallTom{        
         left:40%;
@@ -662,9 +646,7 @@ footer{
         height: auto;
     }
     .firstLayer, .secondLayer {
-        max-width: 85%;        
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;                  
+        max-width: 85%;                
     }
     #smallTom{        
         left:40%;
