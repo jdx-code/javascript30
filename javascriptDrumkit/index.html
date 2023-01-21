@@ -41,6 +41,9 @@
         </div>
     </div>
     <div class="container">
+        <div data-key="32" class="key" id="kickDrum">
+            <kbd><img src="images/kickDrum.png" id="kd" class="kick"/></kbd>
+        </div>
         <div class="secondLayer">
             <div data-key="69" class="key" id="crashCymbal">
                 <kbd><img src="images/crashCymbal.jpg" id="cc" class="cymbals"/></kbd>
@@ -75,9 +78,7 @@
                 <kbd><img src="images/crashRideCymbal.png" id="crc" class="cymbals"/></kbd>
             </div>
         </div>
-        <div data-key="32" class="key" id="kickDrum">
-            <kbd><img src="images/kickDrum.png" id="kd" class="kick"/></kbd>
-        </div>
+        
         <div class="tool">
             <img src="images/tool.png"/>
         </div>
@@ -110,8 +111,7 @@
 
         document.querySelectorAll('.key').forEach(function(key) {
             key.addEventListener('click', function(){
-                let a = document.querySelector(`audio[data-key="${this.getAttribute('data-key')}"]`)
-                // console.log(this.getAttribute('data-key'));
+                let a = document.querySelector(`audio[data-key="${this.getAttribute('data-key')}"]`);
                 console.log(a);
                 // a.play();
 

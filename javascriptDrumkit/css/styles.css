@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body{
@@ -11,7 +11,7 @@ body{
     height: 100vh;
     background-color: #000003;
     color: #fff;    
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Questrial', sans-serif;    
 }
 
 .center{
@@ -337,7 +337,7 @@ footer{
     #kickDrum{       
         position: absolute;
         top: 30%;
-        left: 32%;
+        left: 32%;        
         /* z-index: -1; */
     }
     #snareDrum, #floorTom{
