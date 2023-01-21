@@ -1,4 +1,6 @@
 window.addEventListener('keydown', (e) => {
+    // console log the event
+    console.log(e);
     // Select the audio associated with the key
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
 

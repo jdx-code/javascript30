@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Gantari:wght@500&family=Lato:ital,wght@0,400;1,300&family=Manrope:wght@500&family=Playfair+Display:wght@600&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Gantari:wght@500&family=Lato:ital,wght@0,400;1,300&family=Manrope:wght@500&family=Playfair+Display:wght@600&family=Questrial&family=Rubik+Vinyl&display=swap');
 
 *{
     margin: 0;
@@ -11,14 +11,14 @@ body{
     height: 100vh;
     background-color: #000003;
     color: #fff;    
+    font-family: 'Questrial', sans-serif;
 }
 
 .center{
     display: flex;      
     width: 70%;
     margin: 0 auto;
-    justify-content: space-around;
-    font-family: 'Arsenal', sans-serif;
+    justify-content: space-around;    
     padding:5px;    
 }
 #title{
@@ -338,7 +338,7 @@ footer{
         position: absolute;
         top: 30%;
         left: 32%;
-        z-index: -1;
+        /* z-index: -1; */
     }
     #snareDrum, #floorTom{
         position: relative;
