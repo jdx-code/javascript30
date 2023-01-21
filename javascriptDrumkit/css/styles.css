@@ -379,35 +379,28 @@ footer{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;          
         align-items: center;
     }
-    #crashCymbal{
-        position: relative;
+    #crashCymbal{        
         left: 78%;            
     }
-    #smallTom{
-        position: relative;
+    #smallTom{        
         left:65%;
     }
-    #mediumTom{
-        position: relative;
+    #mediumTom{        
         right:40%;
     }
-    #rideCymbal{
-        position: relative;
+    #rideCymbal{        
         right: 83%;
     }
 
-    #kickDrum{       
-        position: absolute;
+    #kickDrum{               
         top: 31%;
         left: 38%;        
     }
      
-    #hiHat{
-        position: relative;
+    #hiHat{        
         left: 48%;            
     }    
-    #snareDrum, #floorTom{
-        position: relative;
+    #snareDrum, #floorTom{        
         top: -32%;
     }
     #snareDrum{
@@ -416,13 +409,11 @@ footer{
     #floorTom{
         left: -14%;
     }    
-    #crashRideCymbal{
-        position: relative;
+    #crashRideCymbal{        
         right: 50%;
     }
     .tool{        
-        width: 50%;                      
-        position:relative;
+        width: 50%;                              
         left: 23%; 
         margin-top: -2%;       
         
