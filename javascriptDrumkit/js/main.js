@@ -1,3 +1,15 @@
+document.querySelectorAll('.key').forEach(function(key) {
+    key.addEventListener('click', function(){
+        let a = document.querySelector(`audio[data-key="${this.getAttribute('data-key')}"]`);
+        let k = document.querySelector(`.key[data-key="${this.getAttribute('data-key')}"]`);
+        //console.log(a);
+        if(!a) return;
+        a.currentTime = 0;
+        a.play();
+        k.classList.add('playing');
+    });
+});
+
 window.addEventListener('keydown', (e) => {
     // console log the event
     console.log(e);

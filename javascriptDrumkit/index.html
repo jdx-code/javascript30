@@ -102,21 +102,7 @@
     <script type="text/javascript" src="js/main.js">
     </script>  
     <script>
-        // let keyes = document.querySelectorAll('.key');
-        //     keyes.forEach(key => {
-        //     key.addEventListener('click', () => {                
-        //         console.log(this.getAttribute('data-key'));
-        //     });
-        // });
-
-        document.querySelectorAll('.key').forEach(function(key) {
-            key.addEventListener('click', function(){
-                let a = document.querySelector(`audio[data-key="${this.getAttribute('data-key')}"]`);
-                console.log(a);
-                // a.play();
-
-            })
-        })
+        
 
         // window.addEventListener('click', (e) => {
         // // console log the event
@@ -135,7 +121,7 @@
 
     </script>
     <footer>
-        <p>Designed with <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i> by JD,
+        <p>Made with <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i> by JD,
         <span id="yearID">
             <script>
                 let currentTime = new Date();

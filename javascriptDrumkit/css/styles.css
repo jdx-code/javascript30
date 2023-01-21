@@ -88,12 +88,6 @@ footer{
     position: relative;
     right:50px;
 }
-/* #kickDrum{
-    position: absolute;
-    top: 60%;
-    left: 200px;
-    z-index: -1;
-} */
 #snareDrum, #floorTom{
     position: relative;
     top:-15px;
@@ -166,8 +160,7 @@ footer{
     #kickDrum{
         position: absolute;
         top: 48%;
-        left: 100px;
-        z-index: -1;
+        left: 100px;        
     }   
     #snareDrum{
         position: relative;
@@ -195,8 +188,7 @@ footer{
         width: 50%;                      
         position:relative;
         left: 25%;
-        margin-top: 4%;
-        
+        margin-top: 4%;        
     }
     .tool img{
         width: 90px;
@@ -252,8 +244,7 @@ footer{
     #kickDrum{       
         position: absolute;
         top: 39%;
-        left: 32%;
-        z-index: -1;
+        left: 32%;        
     }
     #snareDrum, #floorTom{
         position: relative;
@@ -337,8 +328,7 @@ footer{
     #kickDrum{       
         position: absolute;
         top: 30%;
-        left: 32%;        
-        /* z-index: -1; */
+        left: 32%;                
     }
     #snareDrum, #floorTom{
         position: relative;
@@ -432,8 +422,7 @@ footer{
     #kickDrum{       
         position: absolute;
         top: 31%;
-        left: 38%;
-        z-index: -1;
+        left: 38%;        
     }
      
     #hiHat{
@@ -524,8 +513,7 @@ footer{
     #kickDrum{       
         position: absolute;
         top: 31%;
-        left: 38%;
-        z-index: -1;
+        left: 38%;        
     }
      
     #hiHat{
@@ -594,8 +582,7 @@ footer{
     #kickDrum{
         position: absolute;
         top: 38%;
-        left: 39%;
-        z-index: -1;
+        left: 39%;        
     }
     #snareDrum, #floorTom{
         position: relative;
@@ -672,8 +659,7 @@ footer{
     #kickDrum{
         position: absolute;
         top: 38%;
-        left: 39%;
-        z-index: -1;
+        left: 39%;        
     }
     #snareDrum, #floorTom{
         position: relative;
@@ -719,7 +705,7 @@ footer{
         display: block;    
     }      
     .container {        
-        padding-left: 70px;   
+        padding-left: 80px;           
     }
     .cymbals{
         min-width: 128%;
@@ -750,8 +736,7 @@ footer{
     #kickDrum{
         position: absolute;
         top: 39%;
-        left: 40%;
-        z-index: -1;
+        left: 40%;        
     }
     #snareDrum, #floorTom{
         position: relative;
