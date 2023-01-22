@@ -131,7 +131,7 @@ footer{
         width: 100%;
         max-width: 95%;
         margin-left:5px;
-        margin-top: 20%;
+        margin-top: 30px;
     }
     .cymbals{
         width: 80px;
@@ -156,7 +156,7 @@ footer{
         left: 5%;        
     }
     #kickDrum{        
-        top: 55%;
+        top: 48%;
         left: 100px;        
     }   
     #snareDrum{        
@@ -220,6 +220,7 @@ footer{
     }
     .firstLayer, .secondLayer {
         max-width: 100%;                
+        align-items: center;
     }
     #smallTom{        
         left:45%;
@@ -228,8 +229,8 @@ footer{
         right:25px;
     }
     #kickDrum{               
-        top: 39%;
-        left: 32%;        
+        top: 38%;
+        left: 32%;                
     }
     #snareDrum, #floorTom{        
         top: -32%;
@@ -251,7 +252,9 @@ footer{
     }
     .tool{        
         width: 50%;                              
-        left: 25%;                
+        left: 25%; 
+        margin-top: -2%;       
+        
     }
     .tool img{
         width: 45%;
