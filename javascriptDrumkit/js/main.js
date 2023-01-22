@@ -1,3 +1,7 @@
+let currentTime = new Date();
+let currentYear = currentTime.getFullYear();
+document.querySelector('#yearID').innerText = currentYear; 
+
 function playAudio(audio, key) {
     audio.currentTime = 0;
     audio.play();
